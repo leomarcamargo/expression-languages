@@ -1,0 +1,21 @@
+<project name="HtmlGenerator" default="main" basedir=".">
+	<taskdef name="texen" classname="org.apache.velocity.texen.ant.TexenTask" />
+	
+	
+	<!-- ============================================================= -->
+	<!-- G E N E R A T E JAVA SOURCE CODE-->
+	<!-- ============================================================= -->
+	<!-- This target will generate a set of Java source code pages     -->
+	<!-- based on the information in our control context.              -->
+	<!-- ============================================================= -->
+	
+	<target name="main">
+		<echo message="+------------------------------------------+" />
+		<echo message="| |" />
+		<echo message="| Generating JAVA source code! |" />
+		<echo message="| |" />
+		<echo message="+------------------------------------------+" />
+		<texen controlTemplate="ExpressionControl.vm" outputDirectory="./target" templatePath="." outputFile="generation.report" />
+	</target>
+
+</project>

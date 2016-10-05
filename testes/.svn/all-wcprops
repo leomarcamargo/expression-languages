@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/spg/!svn/ver/347/estudos_caso/ExpressionLanguage/testes
+END
+teste.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/spg/!svn/ver/242/estudos_caso/ExpressionLanguage/testes/teste.txt
+END
+pt-br.properties
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/spg/!svn/ver/242/estudos_caso/ExpressionLanguage/testes/pt-br.properties
+END
+en-us.properties
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/spg/!svn/ver/347/estudos_caso/ExpressionLanguage/testes/en-us.properties
+END

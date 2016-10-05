@@ -1,0 +1,9 @@
+package br.ufpe.cin.lps.elp.base.expression;
+
+public class Value implements Expression {
+	
+	public ExpressionExpression eval() {
+		return this;
+	}
+
+}

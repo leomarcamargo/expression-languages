@@ -1,0 +1,13 @@
+package br.ufpe.cin.lps.elp.base.expression;
+
+public class DivisionExp extends BinaryExp {
+	
+	public DivisionExp(Expression left, Expression right) {
+		super(left, right, "/");
+	}
+	
+	public Value eval() {
+		return left.eval() / right.eval();
+	}
+
+}

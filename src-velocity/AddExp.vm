@@ -1,0 +1,12 @@
+package br.ufpe.cin.lps.elp.base.expression;
+
+public class AddExp extends BinaryExp {
+	
+	public AddExp(Expression left, Expression right) {
+		super(left, right, "+");
+	}
+	
+	public $type eval() {
+		return left.eval() + right.eval();
+	}
+}

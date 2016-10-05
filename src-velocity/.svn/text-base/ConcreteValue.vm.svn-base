@@ -1,0 +1,9 @@
+package br.ufpe.cin.lps.elp.base.expression;
+
+public class $className extends Value<$typeCapital> {
+	
+	public $className($type valor) {
+		super(valor);
+	}
+
+}

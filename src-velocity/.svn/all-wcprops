@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/spg/!svn/ver/342/estudos_caso/ExpressionLanguage/src-velocity
+END
+ExpressionControl.vm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/spg/!svn/ver/342/estudos_caso/ExpressionLanguage/src-velocity/ExpressionControl.vm
+END
+Program.vm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/spg/!svn/ver/342/estudos_caso/ExpressionLanguage/src-velocity/Program.vm
+END
+Value.vm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/spg/!svn/ver/342/estudos_caso/ExpressionLanguage/src-velocity/Value.vm
+END
+DivisionExp.vm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/spg/!svn/ver/242/estudos_caso/ExpressionLanguage/src-velocity/DivisionExp.vm
+END
+Parser.vm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/spg/!svn/ver/342/estudos_caso/ExpressionLanguage/src-velocity/Parser.vm
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/spg/!svn/ver/242/estudos_caso/ExpressionLanguage/src-velocity/build.xml
+END
+MultExp.vm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/spg/!svn/ver/242/estudos_caso/ExpressionLanguage/src-velocity/MultExp.vm
+END
+SubExp.vm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/spg/!svn/ver/242/estudos_caso/ExpressionLanguage/src-velocity/SubExp.vm
+END
+BinaryExp.vm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/spg/!svn/ver/342/estudos_caso/ExpressionLanguage/src-velocity/BinaryExp.vm
+END
+AddExp.vm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/spg/!svn/ver/242/estudos_caso/ExpressionLanguage/src-velocity/AddExp.vm
+END
+ConcreteValue.vm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/spg/!svn/ver/342/estudos_caso/ExpressionLanguage/src-velocity/ConcreteValue.vm
+END
+Expression.vm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/spg/!svn/ver/342/estudos_caso/ExpressionLanguage/src-velocity/Expression.vm
+END

@@ -1,0 +1,7 @@
+refines Value {
+
+	public String print() {
+		return "" + value;
+	}
+	
+}

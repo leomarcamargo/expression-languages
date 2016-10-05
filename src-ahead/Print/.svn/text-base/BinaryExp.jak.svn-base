@@ -1,0 +1,7 @@
+refines BinaryExp  {
+
+	public String print() {
+		return left.print() + operator + right.print();
+	}
+
+}
