@@ -1,5 +1,0 @@
-package br.ufpe.cin.lps.base.expression;
-
-public interface Expression {
-	public $type eval();
-}

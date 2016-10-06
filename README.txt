@@ -1,24 +1,24 @@
 Properties e Subtipo (src)
 Este projeto apenas demonstra como estender a base utilizada em classe com:
-- as operaÃ§Ãµes de multiplicaÃ§Ã£o e divisÃ£o, utilizando polimorfismo de subtipo;
+- as operações de multiplicação e divisão, utilizando polimorfismo de subtipo;
 - possibilidade de trocar os idiomas usando arquivos de propriedades.
 
-Polimorfismo ParamÃ©trico (src-parametric)
-VariaÃ§Ãµes implementadas: Tipo
-Neste exemplo, as classes trabalham em funÃ§Ã£o do tipo. Ou seja, as operaÃ§Ãµes (adiÃ§Ã£o, multiplicaÃ§Ã£o, etc...) dependem do tipo (integer ou double). Assim, as operaÃ§Ãµes estÃ£o definidas dentro da declaraÃ§Ã£o do tipo. Desse modo, as classes AddExp, SubExp, etc, apenas chamam as operaÃ§Ãµes de um determinado tipo. Ã‰ importante frisar que nesta soluÃ§Ã£o, todas as classes sÃ£o dependentes do tipo utilizado na aplicaÃ§Ã£o (inteiro ou double). Este tipo Ã© especificado uma Ãºnica vez, quando o parser Ã© instanciado (ver mÃ©todo main - age como mecanismo de decisÃ£o). 
+Polimorfismo Paramétrico (src-parametric)
+Variações implementadas: Tipo
+Neste exemplo, as classes trabalham em função do tipo. Ou seja, as operações (adição, multiplicação, etc...) dependem do tipo (integer ou double). Assim, as operações estão definidas dentro da declaração do tipo. Desse modo, as classes AddExp, SubExp, etc, apenas chamam as operações de um determinado tipo. Ã‰ importante frisar que nesta solução, todas as classes são dependentes do tipo utilizado na aplicação (inteiro ou double). Este tipo é especificado uma única vez, quando o parser é instanciado (ver método main - age como mecanismo de decisão). 
 
-CompilaÃ§Ã£o Condicional (src-cc)
-VariaÃ§Ãµes implementadas: Print, MultDiv, Tipo
-O arquivo build.xml age como mecanismo de decisÃ£o para geraÃ§Ã£o de produtos, neste caso. As features sÃ£o definidas na tag symbols. No arquivo de exemplo, estÃ£o definidos dois produtos. As tags poderiam ser lidas de um arquivo .symbols, tambÃ©m incluso no exemplo. 
+Compilação Condicional (src-cc)
+Variações implementadas: Print, MultDiv, Tipo
+O arquivo build.xml age como mecanismo de decisão para geração de produtos, neste caso. As features são definidas na tag symbols. No arquivo de exemplo, estão definidos dois produtos. As tags poderiam ser lidas de um arquivo .symbols, também incluso no exemplo. 
 
 AspectJ (src-aspectj)
-VariaÃ§Ãµes implementadas: Print, Tipo
-Neste exemplo, partimos de uma base jÃ¡ definida com Integer e as operaÃ§Ãµes de MultiplicaÃ§Ã£o e DivisÃ£o jÃ¡ presentes. Sendo assim, os aspectos definem o novo tipo Double e as operaÃ§Ãµes com este novo tipo, assim como a feature de impressÃ£o da expressÃ£o fornecida para cÃ¡lculo. Para gerar produtos com/sem as features, Ã© sÃ³ incluir/remover os aspectos do build path do projeto.
+Variações implementadas: Print, Tipo
+Neste exemplo, partimos de uma base já definida com Integer e as operações de Multiplicação e Divisão já presentes. Sendo assim, os aspectos definem o novo tipo Double e as operações com este novo tipo, assim como a feature de impressão da expressão fornecida para cálculo. Para gerar produtos com/sem as features, é só incluir/remover os aspectos do build path do projeto.
 
 Velocity (src-velocity)
-VariaÃ§Ãµes implementadas: Print, MultDiv, Tipo
-O arquivo ExpressionControl.vm age como mecanismo de decisÃ£o. Basta mudar o valor das variÃ¡veis para gerar produtos diferentes. Para rodar o build.xml tem que adicionar o jar do velocity no classpath do ant (em preferÃªncias do eclipse - ant - runtime - global entries).
+Variações implementadas: Print, MultDiv, Tipo
+O arquivo ExpressionControl.vm age como mecanismo de decisão. Basta mudar o valor das variáveis para gerar produtos diferentes. Para rodar o build.xml tem que adicionar o jar do velocity no classpath do ant (em preferências do eclipse - ant - runtime - global entries).
 
 Extension Points
-VariaÃ§Ãµes implementadas: Idioma
-O plugin ELP-EP Ã© a base e o ELP-EP-BR define o idioma portuguÃªs. Para trocar o idioma, Ã© necessÃ¡rio definir um novo plugin, fazendo o link com o ponto de extensÃ£o definido na base e associando a este um novo arquivo de propriedades. 
+Variações implementadas: Idioma
+O plugin ELP-EP é a base e o ELP-EP-BR define o idioma português. Para trocar o idioma, é necessário definir um novo plugin, fazendo o link com o ponto de extensão definido na base e associando a este um novo arquivo de propriedades. 
